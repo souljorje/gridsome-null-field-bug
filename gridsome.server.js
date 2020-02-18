@@ -13,6 +13,10 @@ module.exports = function (api) {
       title: 'Hey, bug!',
       nullField: null,
     })
+    // collection.addNode({
+    //   title: 'Hm, now it works...',
+    //   nullField: 1,
+    // })
   })
 
   api.createPages(({ createPage }) => {
